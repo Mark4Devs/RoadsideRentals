@@ -242,7 +242,7 @@
       -o-transform: translateY(0);
     }
 }
-@keyframes sweep {
+@keyframes sweepF {
     0% {
         transform: perspective(400px) rotateX(90deg);
         -webkit-transform: perspective(400px) rotateX(90deg);
@@ -264,38 +264,13 @@
         opacity: 1;
     } 
 }
-@-webkit-keyframes sweep{
+@-webkit-keyframes sweepF{
     0% {
-        transform: perspective(400px) rotateX(90deg);
-        -webkit-transform: perspective(400px) rotateX(90deg);
-        -ms-transform: perspective(400px) rotateX(90deg);
-        -moz-transform: perspective(400px) rotateX(90deg);
-        -o-transform: perspective(400px) rotateX(90deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 0;
-} 
-    100% {
-        transform: perspective(400px) translate3d(0, 0, 0);
-        -webkit-transform: perspective(400px) translate3d(0, 0, 0);
-        -ms-transform: perspective(400px) translate3d(0, 0, 0);
-        -moz-transform: perspective(400px) translate3d(0, 0, 0);
-        -o-transform: perspective(400px) translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 1;
-}
-}
-@-moz-keyframes sweep{
-    0% {
-        transform: perspective(400px) rotateX(90deg);
-        -webkit-transform: perspective(400px) rotateX(90deg);
-        -ms-transform: perspective(400px) rotateX(90deg);
-        -moz-transform: perspective(400px) rotateX(90deg);
-        -o-transform: perspective(400px) rotateX(90deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 0;
+        transform: perspective(400px) translate3d(90deg);
+        -webkit-transform: perspective(400px) translate3d(90deg);
+        -ms-transform: perspective(400px) translate3d(90deg);
+        -moz-transform: perspective(400px) translate3d(90deg);
+        -o-transform: perspective(400px) translate3d(90deg);
     } 
     100% {
         transform: perspective(400px) translate3d(0, 0, 0);
@@ -303,21 +278,31 @@
         -ms-transform: perspective(400px) translate3d(0, 0, 0);
         -moz-transform: perspective(400px) translate3d(0, 0, 0);
         -o-transform: perspective(400px) translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 1;
+    }
 }
-}
-@-o-keyframes sweep{
+@-moz-keyframes sweepF{
     0% {
-        transform: perspective(400px) rotateX(90deg);
-        -webkit-transform: perspective(400px) rotateX(90deg);
-        -ms-transform: perspective(400px) rotateX(90deg);
-        -moz-transform: perspective(400px) rotateX(90deg);
-        -o-transform: perspective(400px) rotateX(90deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 0;
+        transform: perspective(400px) translate3d(90deg);
+        -webkit-transform: perspective(400px) translate3d(90deg);
+        -ms-transform: perspective(400px) translate3d(90deg);
+        -moz-transform: perspective(400px) translate3d(90deg);
+        -o-transform: perspective(400px) translate3d(90deg);
+    } 
+    100% {
+        transform: perspective(400px) translate3d(0, 0, 0);
+        -webkit-transform: perspective(400px) translate3d(0, 0, 0);
+        -ms-transform: perspective(400px) translate3d(0, 0, 0);
+        -moz-transform: perspective(400px) translate3d(0, 0, 0);
+        -o-transform: perspective(400px) translate3d(0, 0, 0);
+    }
+}
+@-o-keyframes sweepF{
+    0% {
+        transform: perspective(400px) translate3d(90deg);
+        -webkit-transform: perspective(400px) translate3d(90deg);
+        -ms-transform: perspective(400px) translate3d(90deg);
+        -moz-transform: perspective(400px) translate3d(90deg);
+        -o-transform: perspective(400px) translate3d(90deg);
     } 
     100% {
         transform: perspective(400px) rotateX(0deg);
@@ -325,9 +310,6 @@
         -ms-transform: perspective(400px) rotateX(0deg);
         -moz-transform: perspective(400px) rotateX(0deg);
         -o-transform: perspective(400px) rotateX(0deg);
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        opacity: 1;
     }
 } 
 *{
@@ -562,8 +544,8 @@ header{
     -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active .main-heading{
-    animation-name: sweep;
-    -webkit-animation-name: sweep;
+    animation-name: sweepF;
+    -webkit-animation-name: sweepF;
     animation-duration: .9s;
     -webkit-animation-duration: .9s;
     animation-fill-mode: forwards;
