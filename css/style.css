@@ -543,7 +543,9 @@ header{
     -webkit-animation-name: sweep;
     animation-duration: .9s;
     -webkit-animation-duration: .9s;
-    opacity: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
 }
 .main-slider .owl-item.active ul li:nth-of-type(1){
     animation-name: fadeUp;
