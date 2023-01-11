@@ -1,30 +1,30 @@
 @font-face {
     font-family: font-light;
-    src: url('fonts/Roboto/Roboto-Light.ttf');
+    src: url('/fonts/Roboto/Roboto-Light.ttf');
 }
 @font-face {
     font-family: font-regular;
-    src: url('fonts/Roboto/Roboto-Regular.ttf');
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
 } 
 @font-face {
     font-family: font-italic;
-    src: url('fonts/Roboto/Roboto-Italic.ttf');
+    src: url('/fonts/Roboto/Roboto-Italic.ttf');
 } 
 @font-face {
     font-family: font-bold;
-    src: url('fonts/Roboto/Roboto-Bold.ttf');
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
 }
 @font-face {
     font-family: font-bold-italic;
-    src: url('fonts/Roboto/Roboto-BoldItalic.ttf');
+    src: url('/fonts/Roboto/Roboto-BoldItalic.ttf');
 } 
 @font-face {
     font-family: font-black;
-    src: url('fonts/Roboto/Roboto-Black.ttf');
+    src: url('/fonts/Roboto/Roboto-Black.ttf');
 }
 @font-face {
     font-family: font-black-italic;
-    src: url('fonts/Roboto/Roboto-BlackItalic.ttf');
+    src: url('/fonts/Roboto/Roboto-BlackItalic.ttf');
 } 
 @keyframes fadeRight {
     0% {
@@ -534,11 +534,13 @@ header{
     animation-name: fadeLeft;
     -webkit-animation-name: fadeLeft;
     animation-duration: .9s; 
+    -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active h3{
     animation-name: fadeRight;
     -webkit-animation-name: fadeRight;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active .main-heading{
     animation-name: sweep;
@@ -549,25 +551,33 @@ header{
     animation-name: fadeUp;
     -webkit-animation-name: fadeUp;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
     animation-delay: .3s; 
+    -webkit-animation-delay: .3s;
 }
 .main-slider .owl-item.active ul li:nth-of-type(2){
     animation-name: fadeUp;
     -webkit-animation-name: fadeUp;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
     animation-delay: .5s;
+    -webkit-animation-delay: .5s;
 }
 .main-slider .owl-item.active ul li:nth-of-type(3){
     animation-name: fadeUp;
     -webkit-animation-name: fadeUp;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
     animation-delay: .7s;
+    -webkit-animation-delay: .7s;
 }
 .main-slider .owl-item.active .rent-link{
     animation-name: fadeUp;
     -webkit-animation-name: fadeUp;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
     animation-delay: .9s;
+    -webkit-animation-delay: .9s
 }
 .main-slider .owl-dots{
     position: absolute;
@@ -615,7 +625,7 @@ header{
     align-content: center;
     justify-content: center;
     float: right;
-    background-image: url(images/text-underlayer-horizontal.png);
+    background-image: url(/images/text-underlayer-horizontal.png);
     background-size: cover;
     background-position: center; 
 } 
@@ -702,7 +712,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center;
     opacity: 0; 
@@ -934,7 +944,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end; 
-    background-image: url(images/stages-image.png); 
+    background-image: url(/images/stages-image.png); 
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -964,7 +974,7 @@ header{
     height: 100%; 
     padding: 4vw 0;
     background-color: #32312f;
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center; 
     overflow: hidden; 
@@ -1076,7 +1086,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    background-image: url(images/offer-desc-underlayer.png); 
+    background-image: url(/images/offer-desc-underlayer.png); 
     background-size: cover;
     background-position: center;
     z-index: 2;
@@ -1183,7 +1193,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #32312f; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center; 
     overflow: hidden; 
@@ -1287,7 +1297,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #32312f; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center;
     overflow: hidden; 
@@ -1487,7 +1497,7 @@ footer{
     width: 100%; 
     height: 100%;
     background-color: #32312f;
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center; 
 }
@@ -1604,22 +1614,22 @@ footer{
     -o-transition: background-size .3s ease-in-out;
  }
 .cat-item:nth-of-type(1) a{
-    background-image: url(images/city-car-banner.jpg);
+    background-image: url(/images/city-car-banner.jpg);
 }
 .cat-item:nth-of-type(2) a{
-    background-image: url(images/sport-cars-banner.jpg);
+    background-image: url(/images/sport-cars-banner.jpg);
 }
 .cat-item:nth-of-type(3) a{
-    background-image: url(images/classic-car-banner.jpg);
+    background-image: url(/images/classic-car-banner.jpg);
 }
 .cat-item:nth-of-type(4) a{
-    background-image: url(images/special-car-banner.jpg);
+    background-image: url(/images/special-car-banner.jpg);
 } 
 .cat-item:nth-of-type(5) a{
-    background-image: url(images/comfort-car-banner.jpg);
+    background-image: url(/images/comfort-car-banner.jpg);
 } 
 .cat-item:nth-of-type(6) a{
-    background-image: url(images/muscle-car-banner.png);
+    background-image: url(/images/muscle-car-banner.png);
 }
 .cat-item-content{
     width: 100%;
@@ -1673,7 +1683,7 @@ footer{
     width: 100%; 
     height: 100%;  
     background-color: #32312f; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center;
     overflow: hidden; 
@@ -1863,7 +1873,7 @@ footer{
     width: 100%;  
     height: 100%;  
     background-color: #32312f; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center;
     overflow: hidden; 
@@ -2027,7 +2037,7 @@ footer{
     width: 100%;  
     height: 100%;  
     background-color: #32312f; 
-    background-image: url(images/text-underlayer.png);
+    background-image: url(/images/text-underlayer.png);
     background-size: cover;
     background-position: center;
     overflow: hidden; 
