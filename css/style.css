@@ -530,6 +530,9 @@ header{
     width: 100vw;
     height: 100vh;
 }
+.main-slider .owl-item.active .main-heading{
+    opacity: 0;
+}
 .main-slider .owl-item.active .heading-undercover{
     animation-name: fadeLeft;
     -webkit-animation-name: fadeLeft;
@@ -546,6 +549,8 @@ header{
     animation-name: sweep;
     -webkit-animation-name: sweep;
     animation-duration: .9s;
+    -webkit-animation-duration: .9s;
+    opacity: 1;
 }
 .main-slider .owl-item.active ul li:nth-of-type(1){
     animation-name: fadeUp;
