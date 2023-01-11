@@ -585,6 +585,8 @@ header{
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     -o-animation-fill-mode: forwards;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 .main-slider .owl-item.active ul li:nth-of-type(1){
     animation-name: fadeUp;
