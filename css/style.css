@@ -530,9 +530,6 @@ header{
     width: 100vw;
     height: 100vh;
 }
-.main-slider .owl-item.active .main-heading{
-    opacity: 0;
-}
 .main-slider .owl-item.active .heading-undercover{
     animation-name: fadeLeft;
     -webkit-animation-name: fadeLeft;
@@ -549,8 +546,8 @@ header{
     -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active .main-heading{
-    animation-name: flipInX;
-    -webkit-animation-name: flipInX;
+    animation-name: fadeRight;
+    -webkit-animation-name: fadeRight;
     animation-duration: .9s;
     -webkit-animation-duration: .9s;
     animation-fill-mode: forwards;
