@@ -578,8 +578,8 @@ header{
     -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active .main-heading{
-    animation-name: fadeRight;
-    -webkit-animation-name: fadeRight;
+    animation-name: sweep;
+    -webkit-animation-name: sweep;
     animation-duration: .9s;
     -webkit-animation-duration: .9s;
     animation-fill-mode: forwards;
