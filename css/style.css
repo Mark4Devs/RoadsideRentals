@@ -531,6 +531,9 @@ header{
     -webkit-animation-name: fadeLeft;
     animation-duration: .9s; 
     -webkit-animation-duration: .9s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
 }
 .main-slider .owl-item.active h3{
     animation-name: fadeRight;
