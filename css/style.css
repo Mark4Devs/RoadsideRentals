@@ -244,6 +244,7 @@
 }
 @keyframes sweep {
     0% {
+        opacity: 0;
         transform: perspective(400px) rotateX(90deg);
         -webkit-transform: perspective(400px) rotateX(90deg);
         -ms-transform: perspective(400px) rotateX(90deg);
@@ -251,6 +252,7 @@
         -o-transform: perspective(400px) rotateX(90deg);
     } 
     100% {
+        opacity: 1;
         transform: perspective(400px) rotateX(0deg);
         -webkit-transform: perspective(400px) rotateX(0deg);
         -ms-transform: perspective(400px) rotateX(0deg);
@@ -260,6 +262,7 @@
 }
 @-webkit-keyframes sweep{
     0% {
+        opacity: 0;
         transform: perspective(400px) rotateX(90deg);
         -webkit-transform: perspective(400px) rotateX(90deg);
         -ms-transform: perspective(400px) rotateX(90deg);
@@ -267,6 +270,7 @@
         -o-transform: perspective(400px) rotateX(90deg);
     } 
     100% {
+        opacity: 1;
         transform: perspective(400px) rotateX(0deg);
         -webkit-transform: perspective(400px) rotateX(0deg);
         -ms-transform: perspective(400px) rotateX(0deg);
@@ -276,6 +280,7 @@
 }
 @-moz-keyframes sweep{
     0% {
+        opacity: 0;
         transform: perspective(400px) rotateX(90deg);
         -webkit-transform: perspective(400px) rotateX(90deg);
         -ms-transform: perspective(400px) rotateX(90deg);
@@ -283,6 +288,7 @@
         -o-transform: perspective(400px) rotateX(90deg);
     } 
     100% {
+        opacity: 1;
         transform: perspective(400px) rotateX(0deg);
         -webkit-transform: perspective(400px) rotateX(0deg);
         -ms-transform: perspective(400px) rotateX(0deg);
@@ -292,14 +298,15 @@
 }
 @-o-keyframes sweep{
     0% {
+        opacity: 0;
         transform: perspective(400px) rotateX(90deg);
         -webkit-transform: perspective(400px) rotateX(90deg);
         -ms-transform: perspective(400px) rotateX(90deg);
         -moz-transform: perspective(400px) rotateX(90deg);
         -o-transform: perspective(400px) rotateX(90deg);
-        opacity: 0;
     } 
     100% {
+        opacity: 1;
         transform: perspective(400px) rotateX(0deg);
         -webkit-transform: perspective(400px) rotateX(0deg);
         -ms-transform: perspective(400px) rotateX(0deg);
