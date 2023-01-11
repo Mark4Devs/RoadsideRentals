@@ -549,8 +549,8 @@ header{
     -webkit-animation-duration: .9s;
 }
 .main-slider .owl-item.active .main-heading{
-    animation-name: sweep;
-    -webkit-animation-name: sweep;
+    animation-name: flipInX;
+    -webkit-animation-name: flipInX;
     animation-duration: .9s;
     -webkit-animation-duration: .9s;
     animation-fill-mode: forwards;
