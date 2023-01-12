@@ -1,0 +1,461 @@
+@media all and (max-width: 1926px) and (min-height: 1100px){
+    .main-heading-container {
+        margin-top: 0;
+    }
+    .main-slider-item-info {
+        height: 31%; 
+    }
+}
+@media all and (max-width: 1795px) and (min-height: 980px){
+    .main-heading-container {
+        margin-top: 0%;
+    }
+    .main-slider-item-info {
+        height: 31%; 
+    }
+}
+@media all and (max-width: 1685px){
+    .header-info, .header-menu{
+        max-width: 87vw; 
+    } 
+    .wrapper{
+        width: 87vw;
+    }
+    .about-info{
+        padding-right: calc((100vw - 87vw) / 2);
+    }
+    .stages-content{ 
+        padding-left: calc(((100% - 87vw) / 2));
+    }
+    .offers-heading-container, .testimonials-heading-container, .faq-heading-container,
+    .categories-heading-container, .cars-heading-container, .product-heading-container, 
+    .contacts-heading-container { 
+        width: calc(40vw - ((100vw - 87vw) / 2));   
+    } 
+}
+@media all and (max-width: 1540px){ 
+    .nav-link { 
+        padding-bottom: 1px;
+    }
+    .nav-link::before{
+        height: 1px;
+    }
+    .nav-link.active::before {
+        height: 1px;
+    } 
+    .main-heading-container {
+        margin-top: 0;
+    }
+    .main-slider-item-info {
+        height: 31%; 
+    }
+    .offers-block-main {
+        width: 65%; 
+    }
+    .offer-main a { 
+        height: 38vw;
+    }
+    .offer .cat-title { 
+        height: 1.6vw;
+        padding: 0 0.7vw;
+        font-size: .6vw;
+    }
+    .offer .offer-data {
+        font-size: .9vw;
+    }
+    .comments-slider .comment-desc span {
+        font-size: .75vw; 
+    }
+    .cat-item {
+        height: 25vw;
+    }
+}
+@media all and (max-width: 1540px) and (min-height: 950px){
+    .main-slider-item-info {
+        height: 29%;
+    }
+} 
+@media all and (max-width: 1370px){
+    .map-container { 
+        height: 30vw;
+    }
+}
+@media all and (max-width: 1445px) and (min-height: 890px){
+    .main-heading-container {
+        margin-top: 0;
+    }
+    .main-slider-item-info {
+        height: 29%; 
+    }
+}
+@media all and (max-width: 1285px) and (min-height: 850px){
+    .main-slider-item-info {
+        height: 28%;
+    }
+}
+@media all and (max-width: 1285px){
+    .heading-undercover-about { 
+        height: 3.3vw;
+    }
+    .cat-item {
+        height: 27vw;
+    }
+    .car-list::-webkit-scrollbar {
+        width: 3px;
+    } 
+}
+@media all and (max-width: 1185px) and (min-height: 795px){
+    .main-slider-item-info {
+        height: 27%;
+        margin-top: 12%;
+    } 
+}
+@media all and (max-width: 1185px){
+    .main-slider .owl-dots .owl-dot { 
+        margin-bottom: 9px;
+    }
+}
+@media all and (max-width: 1050px){
+    .header-info, .header-menu {
+        max-width: 92vw;
+    }
+    .header-info-container {
+        height: 3vw;
+    }
+    .header-info-contacts {
+        width: 23vw; 
+    }
+    .header-info ul li {
+        font-size: 1.1vw;
+    }
+    .header-info-social {
+        width: 8vw;
+    }
+    .header-menu-container { 
+        height: 6vw;
+    }
+    .navbar-brand img {
+        width: 5vw;
+    }
+    .navbar-nav {
+        width: 31vw; 
+    }
+    .rent-link { 
+        height: 2.8vw;
+        padding: 0 0.8vw;
+        font-size: 1.2vw;
+    }
+    .nav-link {
+        font-size: 1.2vw;
+    }
+    .nav-link.active::before { 
+        right: 0px;
+    } 
+    .main-slider-item-content {
+        width: 40%;  
+    }
+    .heading-undercover { 
+        height: 5vw;
+    }
+    .main-heading { 
+        margin-right: 3vw;
+        font-size: 4.5vw;
+    }
+    .main-slider-item-info {
+        height: 27%;
+        margin-top: 12%;
+    }
+    .main-slider-item-info h3 {
+        font-size: 2.7vw; 
+    }
+    .main-slider .owl-dots .owl-dot {
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    .main-slider-item-info ul {
+        font-size: 1.9vw;
+        margin-left: 2%;
+    }
+    .heading-undercover-about {
+        height: 3.7vw;
+    }
+    .heading {
+        font-size: 2.4vw;
+    }
+    .wrapper {
+        width: 92vw;
+    }
+    .about-info {
+        padding-right: calc((100vw - 92vw) / 2);
+    }
+    .about-info p {
+        font-size: 1.2vw; 
+        margin-top: 3vw;
+    }
+    .about-social ul {
+        width: 8vw; 
+    }
+    .about-social ul li a {
+        font-size: 1.1vw;
+    }
+    .about-stats {
+        bottom: 9%;
+        width: 65%;
+        height: 9vw;
+    }
+    .about-stats ul li {
+        font-size: 1.7vw;
+    }
+    .about-stats ul li span {
+        font-size: 2.5vw;
+    } 
+    .process-subheading { 
+        font-size: .8vw;
+    }
+    .heading-undercover-process { 
+        height: 3.5vw;
+    }
+    .stages-content {
+        padding-left: calc(((100% - 92vw) / 2));
+        
+    }
+    .stages-container{
+        width: 98%;
+    }
+    .stage-info h5 {
+        font-size: 1.5vw; 
+    }
+    .stage .fa-solid {
+        font-size: 1.5vw; 
+    }
+    .stage-info p {
+        font-size: 1.2vw; 
+    }
+    .process-image-container {
+        height: 50vw;
+    }
+    .process-image-text {
+        font-size: 3.5vw; 
+    }
+    .offers-heading-container, .testimonials-heading-container, .faq-heading-container, .categories-heading-container, .cars-heading-container, .product-heading-container, .contacts-heading-container {
+        width: calc(40vw - ((100vw - 92vw) / 2));
+    }
+    .heading-undercover-offers { 
+        height: 3.5vw;
+    }
+    .offers-heading-container .text {
+        font-size: 1.2vw;
+    }
+    .offer-main .cat-title { 
+        height: 2.3vw;
+        padding: 0 1vw;
+        font-size: .9vw;
+    }
+    .offer-info { 
+        padding: 0 3vw;
+    }
+    .offer-data {
+        font-size: 1.4vw;
+    }
+    .offer .cat-title {
+        height: 1.9vw;
+        padding: 0 0.9vw;
+        font-size: .7vw;
+    }
+    .offer .offer-data {
+        font-size: 1.1vw;
+        width: 36%;
+    }
+    .offer .offer-info h4 {
+        font-size: 1.1vw;
+    }
+    .heading-undercover-testimonials {
+        height: 3.5vw;
+    }
+    .testimonials-heading-container { 
+        margin-bottom: 4vw;
+    }
+    .testimonials-heading-container p {
+        font-size: 1.2vw; 
+    }
+    .comments-slider article p {
+        font-size: 1.2vw;
+    }
+    .comments-slider .comment-desc span {
+        font-size: .9vw;
+    }
+    .comments-slider .comment-desc h5 {
+        font-size: 1.2vw; 
+    }
+    .heading-undercover-faq { 
+        height: 3.5vw;
+    }
+    .faq-heading-container p {
+        font-size: 1.2vw; 
+    }
+    .faq-btn { 
+        font-size: 1.4vw;
+    }
+    .faq-answer { 
+        font-size: 1.2vw;
+    }
+    .footer-about {
+        width: 30%;
+        margin-right: 12vw;
+    }
+    .footer-about h2 {
+        font-size: 1.4vw;
+    }
+    .footer-about p {
+        font-size: 1.2vw;
+    }
+    .footer-support h6, .footer-company h6, .footer-contacts h6 {
+        font-size: 1.4vw;
+    }
+    .footer-support ul li, .footer-company ul li, .footer-contacts ul li {
+        margin-bottom: 0.2vw;
+    }
+    .footer-support ul li a, .footer-company ul li a, .footer-contacts ul li {
+        font-size: 1.2vw;
+    }
+    .footer-support, .footer-company, .footer-contacts {
+        width: 18%;
+    }
+    .footer-contacts ul li {
+        margin-bottom: 0.9vw;
+    }
+    .wrapper.categories {
+        margin-top: 8.6vw;
+        padding: 2vw 0;
+    }
+    .heading-undercover-cats {
+        height: 3.5vw;
+    } 
+    .cat-item {
+        height: 29vw;
+    }
+    .cat-item-content h5 { 
+        font-size: 1.7vw;
+    }
+    .wrapper.cars {
+        margin-top: 8.6vw;
+        padding: 2vw 0;
+    }
+    .heading-undercover-cars { 
+        height: 3.5vw;
+    }
+    .filters-form label, .filters-form input {
+        font-size: 1.2vw;
+    }
+    .filters-form input::placeholder { 
+        font-size: 1.2vw;
+    }
+    .cars-list-item figure img { 
+        height: 25vw;
+    }
+    .cars-list-item figure figcaption h5 {
+        font-size: 1.4vw;
+    }
+    .cars-list-item figure figcaption ul li { 
+        font-size: 1.2vw;
+    }
+    .product-page { 
+        margin-top: 8.6vw;
+        padding: 4vw;
+    }
+    .heading-undercover-product { 
+        height: 3.5vw;
+    }
+    .product-desc p {
+        font-size: 1.2vw;;
+    }
+    .product-features { 
+        font-size: 1.2vw;
+    }
+    .product-stats {
+        width: 50%;
+    }
+    .product-stats ul {
+        font-size: 1.5vw;
+        margin: 2vw 0;
+    }
+    .product-slider .owl-nav .owl-prev .fa-solid, .product-slider .owl-nav .owl-next .fa-solid {
+        font-size: 1.7vw; 
+    }
+    .product-reviews h3 {
+        font-size: 1.4vw; 
+    }
+    .contacts-page { 
+        margin-top: 8.6vw;
+        padding: 4vw 0;
+    }
+    .heading-undercover-contacts { 
+        height: 3.5vw;
+    }
+    .contacts-item:first-of-type h5 {
+        font-size: 1.7vw; 
+    }
+    .contacts-item:first-of-type p {
+        font-size: 1.2vw; 
+    }
+    .contacts-item:first-of-type h6 {
+        font-size: 1.4vw;
+    }
+    .contacts-item:first-of-type ul li a {
+        font-size: 1.2vw; 
+    }
+    .contacts-item:last-of-type h5 { 
+        font-size: 1.7vw;
+    }
+    #contactForm label, #contactForm input, #contactForm textarea {
+        font-size: 1.2vw; 
+    }
+    #contactForm input::placeholder, #contactForm textarea::placeholder {
+        font-size: 1.2vw; 
+    }
+    #contactForm button{
+        height: 2.8vw;
+        padding: 0 0.8vw;
+        font-size: 1.2vw;
+    }
+    .map-container {
+        height: 35vw;
+    }
+}
+@media all and (max-width: 1050px) and (max-height: 675px){
+    .main-slider-item-info {
+        height: 32%;
+        margin-top: 5%;
+    }
+}
+@media all and (max-width: 920px) and (max-height: 1370px){ 
+    .main-heading-container {
+        margin-top: 12%;
+    }
+    .main-slider-item-info {
+        height: 33%;
+        margin-top: 5%;
+    }
+    .main-slider .owl-item {
+        height: 60vw;
+    }
+    .main-slider-img {
+        height: 60vw;
+    }
+    .heading-undercover-about {
+        height: 4vw;
+    }
+    .heading-undercover-process, .heading-undercover-offers, .heading-undercover-testimonials, 
+    .heading-undercover-faq, .heading-undercover-cats, .heading-undercover-cars, .heading-undercover-contacts,
+    .heading-undercover-product {
+        height: 3.7vw;
+    } 
+    .cat-item { 
+        margin-bottom: 4vw;
+    }
+    .map-container {
+        height: 40vw;
+        margin-top: 5vw;
+    }
+    
+}
